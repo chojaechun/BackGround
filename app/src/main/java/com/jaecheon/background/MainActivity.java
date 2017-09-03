@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity{
 
         Button stop = (Button) findViewById(R.id.btn_stop);
 
+
         stop.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // 서비스 종료하기
